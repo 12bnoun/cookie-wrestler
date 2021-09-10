@@ -29,16 +29,23 @@
         .font-color {
           color: white;
           font-family: minecraftia;
+          z-index: 2;
+          position: absolute;
+          bottom: 0;
+        }
+
+        #canvas {
+          width: 100% !important;
+          height: auto !important;
         }
         </style>
     </head>
     <body>
         <center>
+          <div class="font-color">All rights reserved by <a href="https://supermicrofun.com/">Bryan Perfetto</a>. Modified to fit Nouns Universe</div>
             <div id="game">
-                <canvas id="canvas" width="800" height="450" style="width:100%; height:auto;"></canvas>
+                <canvas id="canvas" width="800" height="450"></canvas>
             </div>
-            <div class="font-color">All rights reserved by @regularkid</div>
-            <div class="font-color">Modified to fit Nouns Universe</div>
         </center>
         <script src="zzfx.js"></script>
         <script src="zzfxm.min.js"></script>
